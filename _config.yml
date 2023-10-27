@@ -20,19 +20,25 @@ plugins:
 # Team names, titles and social links
 people:
 - name: Uduak George
-  pic: missing
-  position: PI
+  pic: Uduak
+  position: Principal Investigator
   email: ugeorge@sdsu.edu
+  website: https://georgelab.sdsu.edu/
+  about: Dr. Uduak George is an Associate Professor of Mathematics and Statistics at San Diego State University. More information about her research can be found on her personal George Lab webpage.
 
 - name: Karilyn Sant
-  pic: missing
-  position: PI
+  pic: Kari
+  position: Principal Investigator
   email: ksant@sdsu.edu
+  website: https://publichealth.sdsu.edu/people/karilyn-sant/
+  about: Dr. Karilyn Sant is an Associate Professor of Environmental Health in the San Diego State University School of Public Health. More information about her research can be found on her personal webpage.
 
 - name: Ashley Schwartz
-  pic: missing
+  pic: Ashley
   position: Graduate Student
+  website: https://ashleyschwartz.com/
   email: avschwartz@sdsu.edu
+  about: Ashley is a computational science PhD candidate affiliated with the Computational Science Research Center at SDSU. She is jointly advised by Dr. George and Dr. Sant in computational toxicology. More information about her personal research and news can be found on her personal website. 
 
 
  
