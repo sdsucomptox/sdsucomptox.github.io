@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- <div class = "container">
+    <h3 class="font-weight-bold spanborder"><span>Contact</span></h3>
+
+</div> -->
+<div class="container">
+    <h3 class="font-weight-bold spanborder"><span>{{page.title}}</span></h3>
+
+    <div class="row">
+
+        <div class="col-md-8">
+            <!-- the content -->
+            <!-- <mypage class="mypage-post">    
+                <h2>{{page.headline}}</h2> 
+            </mypage> -->
+
+            <!-- the team -->
+            <div class="row mt-3">
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="assets/images/team/{{ member.pic }}.jpg" class="rounded-circle" alt="" width="150">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <!-- <p class="text-muted">{{ member.email }}</p> -->
+                        <a class="text-link" href="mailto:{{ member.email }}">{{ member.email }}</a>
+                        <br>
+                        <!-- <a href="{{ member.linkedin }}" class="btn btn-dark">LinkedIn</a> -->
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <hr>
+            <mypage class="mypage-post">                
+                {{ content }}                
+            </mypage>
+        </div>
+
+
+        <!-- sidebar -->
+        <div class="col-md-4">
+            {% include main-sidebar.html %}
+        </div>
+
+    <!-- close row -->
+    </div>  
+<!-- close containter -->
+</div> 
