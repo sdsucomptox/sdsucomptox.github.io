@@ -1,4 +1,4 @@
-# siamscsdsu.github.io
+# sdsucomptox.sdsu.edu
 
 ## About
 
